@@ -1,7 +1,9 @@
-﻿# ComparadorLogico-JS
+<h1 align=center>Comparador Lógico</h1>
 
-<p> 
-  <img src="[preview.gif](https://github.com/GyanRibeiro/Assets/blob/main/comparador-preview_AdobeExpress.gif?  
-  raw=true)https://github.com/GyanRibeiro/Assets/blob/main/comparador-preview_AdobeExpress.gif?raw=true">
-</p>
+> Atividade realizada no segundo módulo do curso Front-end Angular, da Ada Tech em parcerua com o Santander
+
+<hr>
+
+<img src="comparador-preview.gif">
+
 
