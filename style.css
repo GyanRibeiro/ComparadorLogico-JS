@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat' ,'Poppins', sans-serif;
+
+    /* background-image: url(https://img.freepik.com/fotos-gratis/parede-de-gesso-aspero_1194-7175.jpg?w=996&t=st=1691603850~exp=1691604450~hmac=65412cbcc030acfc49a542d0e00a09939d9d68ae99f7fce29307da9fc28212c8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background-color: azure;
+    color: azure;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro {
+    background-image: url(https://photoshopparainiciantes.com.br/wp-content/uploads/2015/09/Chalkboard-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 50rem;
+    border: 10px solid #DEB887;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem 0rem;
+}
+
+input, select {
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border: 1px azure solid;
+    color: azure;
+}
+
+option {
+    color: black;
+}
+
+input[type="number"], select {
+    width: 20rem;
+    height: 2rem;
+
+    text-align: center;
+
+    font-size: 1rem;
+}
+
+input[type='button'] {
+    width: 15rem;
+    height: 2rem;
+}
+
+input[type='text'] {
+    width: 20rem;
+    height: 3rem;
+
+    font-size: 2rem;
+    color: black;
+
+    text-align: center;
+}
+
+::placeholder {
+    color: azure;
+}
+
+input[type='text']::placeholder {
+    position: relative;
+    top: 20%;
+}
